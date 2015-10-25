@@ -72,10 +72,12 @@ class File{
  * 1.安装扩展memcache
  */
 
+/*
 $redis = new Redis();
 $redis->connect('127.0.0.1', '6379');
 $redis->set('singwa', 'value');//key/value-singwa/value
 $redis->setex('singwa', 10, 'value');//设置失效时间10s
 $redis->get('singwa');
+ * */
 
 
